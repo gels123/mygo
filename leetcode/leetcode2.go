@@ -29,34 +29,32 @@
 
 package main
 
-import "fmt"
+// func main() {
+// 	fmt.Println("==main begin ==")
 
-func main() {
-	fmt.Println("==main begin ==")
-
-	l1 := &ListNode{
-		Val: 2,
-		Next: &ListNode{
-			Val: 4,
-			Next: &ListNode{
-				Val:  3,
-				Next: nil,
-			},
-		},
-	}
-	l2 := &ListNode{
-		Val: 5,
-		Next: &ListNode{
-			Val: 6,
-			Next: &ListNode{
-				Val:  4,
-				Next: nil,
-			},
-		},
-	}
-	ret := addTwoNumbers(l1, l2)
-	fmt.Println("==main end ==", ret)
-}
+// 	l1 := &ListNode{
+// 		Val: 2,
+// 		Next: &ListNode{
+// 			Val: 4,
+// 			Next: &ListNode{
+// 				Val:  3,
+// 				Next: nil,
+// 			},
+// 		},
+// 	}
+// 	l2 := &ListNode{
+// 		Val: 5,
+// 		Next: &ListNode{
+// 			Val: 6,
+// 			Next: &ListNode{
+// 				Val:  4,
+// 				Next: nil,
+// 			},
+// 		},
+// 	}
+// 	ret := addTwoNumbers(l1, l2)
+// 	fmt.Println("==main end ==", ret)
+// }
 
 type ListNode struct {
 	Val  int
