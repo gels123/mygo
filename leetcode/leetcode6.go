@@ -38,16 +38,16 @@
 
 package main
 
-import "fmt"
+// func main() {
+// 	fmt.Println("==main begin==")
+// 	var s string = ""
+// 	ret := convert(s, 1)
+// 	fmt.Println("==main end==", ret)
+// }
 
-func main() {
-	fmt.Println("==main begin==")
-	var s string = ""
-	ret := convert(s, 1)
-	fmt.Println("==main end==", ret)
-}
+// func convert(s string, numRows int) string {
 
-func convert(s string, numRows int) string {
-	var ret string = ""
-	return ret
-}
+// 	ch := make(chan int, 2)
+// 	var ret string = ""
+// 	return ret
+// }
