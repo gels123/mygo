@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-func main1() {
+func main() {
 	fmt.Println("===main begin==")
 	var s string = "abcdefg"
 
