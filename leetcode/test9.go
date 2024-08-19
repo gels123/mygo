@@ -32,6 +32,10 @@ func test_merge() {
 
 }
 
+func test_merge2() {
+
+}
+
 func test_main1() {
 
 }
