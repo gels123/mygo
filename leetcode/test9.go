@@ -27,3 +27,7 @@ func main() {
 
 	fmt.Println("== main end ==")
 }
+
+func test_merge() {
+
+}
