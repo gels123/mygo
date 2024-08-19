@@ -31,3 +31,7 @@ func main() {
 func test_merge() {
 
 }
+
+func test_main1() {
+
+}
