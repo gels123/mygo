@@ -28,8 +28,6 @@
 
 package main
 
-import "fmt"
-
 func maxArea(height []int) int {
 	ret := 0
 	if len(height) <= 1 {
@@ -50,11 +48,11 @@ func maxArea(height []int) int {
 	return ret
 }
 
-func main() {
-	fmt.Println("== main begin ==")
-	height := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
-	ret := maxArea(height)
-	fmt.Println("maxArea ret =", ret)
+// func main() {
+// 	fmt.Println("== main begin ==")
+// 	height := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
+// 	ret := maxArea(height)
+// 	fmt.Println("maxArea ret =", ret)
 
-	fmt.Println("== main end ==")
-}
+// 	fmt.Println("== main end ==")
+// }
